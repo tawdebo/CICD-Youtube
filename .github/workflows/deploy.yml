@@ -49,6 +49,7 @@ jobs:
                npm install -g pm2
                cd /home/ubuntu
                git clone https://github.com/tawdebo/CICD-Youtube.git
+               cd /home/ubuntu/CICD-Youtube
                npm install
                npm run build
                pm2 restart all
