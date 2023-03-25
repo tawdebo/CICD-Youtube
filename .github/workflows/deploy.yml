@@ -52,7 +52,7 @@ jobs:
                cd /home/ubuntu/CICD-Youtube
                npm install
                npm run build
-               pm2 restart all
+               pm2 restart app
                
             
 
