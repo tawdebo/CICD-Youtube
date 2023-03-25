@@ -40,10 +40,7 @@ jobs:
           username:  ${{ secrets.SSH_USERNAME }}
           key:  ${{ secrets.SSH_KEY }}
           script: |
-              curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    | bash
-              . ~/.nvm/nvm.sh
                apt-get install node
-               nvm instal 16
                npm install -g pm2
                cd /home/ubuntu
                git pull origin main
