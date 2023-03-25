@@ -45,7 +45,7 @@ jobs:
                apt-get install node
                nvm instal 16
                npm install -g pm2
-               cd ~/home/ubuntu
+               cd /home/ubuntu
                git pull origin main
                npm install
                npm run build
